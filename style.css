@@ -32,6 +32,11 @@ body {
   appearance: none;
 }
 
+.container {
+  perspective: 700px;
+  margin-bottom: 30px;
+}
+
 .seat {
   background-color: #444451;
   height: 12px;
@@ -90,4 +95,16 @@ body {
 
 .row {
   display: flex;
+}
+
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  margin: 15px 0;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+p.text span {
+  color: #6feaf6;
 }
