@@ -11,6 +11,9 @@ amountElementOne.addEventListener("input", calculate);
 currencyElementTwo.addEventListener("change", calculate);
 amountElementTwo.addEventListener("input", calculate);
 
-function calculate() {}
+function calculate() {
+  const currencyOne = currencyElementOne.value;
+  const currencyTwo = currencyElementTwo.value;
+}
 
 calculate();
